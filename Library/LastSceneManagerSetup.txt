@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/FinalGame_Emma.unity
+  isLoaded: 1
+  isActive: 1
