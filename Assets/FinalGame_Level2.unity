@@ -229,6 +229,7 @@ GameObject:
   - component: {fileID: 172245424}
   - component: {fileID: 172245423}
   - component: {fileID: 172245422}
+  - component: {fileID: 172245420}
   m_Layer: 0
   m_Name: badguy (1)
   m_TagString: Untagged
@@ -236,6 +237,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &172245420
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 172245419}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fa3c260db47248a18ecb8112019040d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destroyWhenActivated: 0
+  healthChange: -1
 --- !u!58 &172245422
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -854,6 +869,14 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 11445676, guid: 0f6ae8712879c4f40bf6af3fe490badd, type: 3}
+      propertyPath: scoreToWin
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 11460820, guid: 0f6ae8712879c4f40bf6af3fe490badd, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0f6ae8712879c4f40bf6af3fe490badd, type: 3}
 --- !u!1 &338532553
@@ -867,6 +890,7 @@ GameObject:
   - component: {fileID: 338532558}
   - component: {fileID: 338532557}
   - component: {fileID: 338532556}
+  - component: {fileID: 338532554}
   m_Layer: 0
   m_Name: badguy
   m_TagString: Untagged
@@ -874,6 +898,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &338532554
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 338532553}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fa3c260db47248a18ecb8112019040d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destroyWhenActivated: 0
+  healthChange: -1
 --- !u!58 &338532556
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1328,6 +1366,7 @@ GameObject:
   - component: {fileID: 561162908}
   - component: {fileID: 561162907}
   - component: {fileID: 561162906}
+  - component: {fileID: 561162911}
   m_Layer: 0
   m_Name: badguy (3)
   m_TagString: Untagged
@@ -1452,6 +1491,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &561162911
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 561162905}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fa3c260db47248a18ecb8112019040d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destroyWhenActivated: 0
+  healthChange: -1
 --- !u!1 &722011937
 GameObject:
   m_ObjectHideFlags: 0
@@ -1552,8 +1605,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 722011937}
   m_LocalRotation: {x: 0, y: 0, z: 0.70710677, w: 0.70710677}
-  m_LocalPosition: {x: -14.26, y: 14.1, z: 0}
-  m_LocalScale: {x: 67.78593, y: 1.0454509, z: 1}
+  m_LocalPosition: {x: -14.275, y: 14.069, z: 0}
+  m_LocalScale: {x: 66.63844, y: 1.0235759, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 4
@@ -1571,6 +1624,7 @@ GameObject:
   - component: {fileID: 774405719}
   - component: {fileID: 774405723}
   - component: {fileID: 774405722}
+  - component: {fileID: 774405724}
   m_Layer: 0
   m_Name: top(endoflevel)
   m_TagString: Untagged
@@ -1704,6 +1758,21 @@ MonoBehaviour:
   filterTag: Player
   frequency: 1
   eventType: 0
+--- !u!114 &774405724
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 774405718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: edd3d3d7f138e481ea375005c45bc6cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  smileyNum: 10
+  nextLevel: 2
+  currentLevel: 1
 --- !u!1 &811270149
 GameObject:
   m_ObjectHideFlags: 0
@@ -1866,6 +1935,7 @@ GameObject:
   - component: {fileID: 821568298}
   - component: {fileID: 821568297}
   - component: {fileID: 821568296}
+  - component: {fileID: 821568294}
   m_Layer: 0
   m_Name: badguy (6)
   m_TagString: Untagged
@@ -1873,6 +1943,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &821568294
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 821568293}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fa3c260db47248a18ecb8112019040d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destroyWhenActivated: 0
+  healthChange: -1
 --- !u!58 &821568296
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -2224,6 +2308,7 @@ GameObject:
   - component: {fileID: 998328499}
   - component: {fileID: 998328498}
   - component: {fileID: 998328497}
+  - component: {fileID: 998328495}
   m_Layer: 0
   m_Name: badguy (4)
   m_TagString: Untagged
@@ -2231,6 +2316,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &998328495
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 998328494}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fa3c260db47248a18ecb8112019040d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destroyWhenActivated: 0
+  healthChange: -1
 --- !u!58 &998328497
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -2846,6 +2945,7 @@ GameObject:
   - component: {fileID: 1469004314}
   - component: {fileID: 1469004313}
   - component: {fileID: 1469004312}
+  - component: {fileID: 1469004317}
   m_Layer: 0
   m_Name: badguy (2)
   m_TagString: Untagged
@@ -2970,6 +3070,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1469004317
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1469004311}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fa3c260db47248a18ecb8112019040d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destroyWhenActivated: 0
+  healthChange: -1
 --- !u!1 &1549921383
 GameObject:
   m_ObjectHideFlags: 0
@@ -2983,6 +3097,7 @@ GameObject:
   - component: {fileID: 1549921386}
   - component: {fileID: 1549921385}
   - component: {fileID: 1549921384}
+  - component: {fileID: 1549921389}
   m_Layer: 0
   m_Name: badguy (5)
   m_TagString: Untagged
@@ -3107,6 +3222,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1549921389
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1549921383}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fa3c260db47248a18ecb8112019040d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destroyWhenActivated: 0
+  healthChange: -1
 --- !u!1 &1565494227
 GameObject:
   m_ObjectHideFlags: 0
@@ -3731,8 +3860,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2075602319}
   m_LocalRotation: {x: 0, y: 0, z: 0.70710677, w: 0.70710677}
-  m_LocalPosition: {x: 15.11, y: 14.44, z: 0}
-  m_LocalScale: {x: 67.78593, y: 1.0454509, z: 1}
+  m_LocalPosition: {x: 15.135, y: 14.06, z: 0}
+  m_LocalScale: {x: 65.90114, y: 1.0821358, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 5
@@ -3939,7 +4068,7 @@ MonoBehaviour:
   key: 32
   jumpStrength: 4
   groundTag: Ground
-  checkGround: 1
+  checkGround: 0
 --- !u!114 &2140073804
 MonoBehaviour:
   m_ObjectHideFlags: 0
