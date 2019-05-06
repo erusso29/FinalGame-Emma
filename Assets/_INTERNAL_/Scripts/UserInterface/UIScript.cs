@@ -32,6 +32,8 @@ public class UIScript : MonoBehaviour
     private bool gameOver = false; //this gets changed when the game is won OR lost
 
 
+    public int publicScore;
+
 	private void Start()
 	{
 		if(numberOfPlayers == Players.OnePlayer)
@@ -150,10 +152,14 @@ public class UIScript : MonoBehaviour
 
 	}
 
+    private void Update()
+    {
+        publicScore = scores[0];
+    }
 
 
-	//Adds a resource to the dictionary, and to the UI
-	public void AddResource(int resourceType, int pickedUpAmount, Sprite graphics)
+    //Adds a resource to the dictionary, and to the UI
+    public void AddResource(int resourceType, int pickedUpAmount, Sprite graphics)
 	{
 		if(resourcesDict.ContainsKey(resourceType))
 		{
