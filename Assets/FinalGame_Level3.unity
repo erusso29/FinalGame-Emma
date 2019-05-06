@@ -125,8 +125,8 @@ GameObject:
   - component: {fileID: 36871837}
   - component: {fileID: 36871836}
   - component: {fileID: 36871835}
-  - component: {fileID: 36871834}
   - component: {fileID: 36871840}
+  - component: {fileID: 36871834}
   m_Layer: 0
   m_Name: bonussmileys (1)
   m_TagString: Untagged
@@ -143,10 +143,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 36871833}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dde7269c73c0d4a0aa7d33419579c17d, type: 3}
+  m_Script: {fileID: 11500000, guid: 0fa3c260db47248a18ecb8112019040d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pointsWorth: 3
+  destroyWhenActivated: 0
+  healthChange: 1
 --- !u!114 &36871835
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2316,8 +2317,8 @@ GameObject:
   - component: {fileID: 1163180996}
   - component: {fileID: 1163180995}
   - component: {fileID: 1163180994}
-  - component: {fileID: 1163180993}
   - component: {fileID: 1163180999}
+  - component: {fileID: 1163180993}
   m_Layer: 0
   m_Name: bonussmileys
   m_TagString: Untagged
@@ -2334,10 +2335,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1163180992}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dde7269c73c0d4a0aa7d33419579c17d, type: 3}
+  m_Script: {fileID: 11500000, guid: 0fa3c260db47248a18ecb8112019040d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pointsWorth: 3
+  destroyWhenActivated: 0
+  healthChange: 1
 --- !u!114 &1163180994
 MonoBehaviour:
   m_ObjectHideFlags: 0
