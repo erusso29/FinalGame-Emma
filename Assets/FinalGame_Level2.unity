@@ -454,6 +454,7 @@ GameObject:
   - component: {fileID: 216689569}
   - component: {fileID: 216689574}
   - component: {fileID: 216689573}
+  - component: {fileID: 216689575}
   m_Layer: 0
   m_Name: bonussmileys
   m_TagString: Untagged
@@ -592,6 +593,20 @@ MonoBehaviour:
   filterTag: Player
   frequency: 1
   eventType: 0
+--- !u!114 &216689575
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 216689568}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 940263dfea2c640c98fd1f68731b4cde, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  collisionSound: {fileID: 8300000, guid: 5e0f133856bb3491b97a4a9f407dddd0, type: 3}
+  mySource: {fileID: 0}
 --- !u!1 &218425323
 GameObject:
   m_ObjectHideFlags: 0
