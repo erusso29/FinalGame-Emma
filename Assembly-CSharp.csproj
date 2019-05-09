@@ -71,7 +71,6 @@
     <Compile Include="Assets\_INTERNAL_\Scripts\Utilities\Enums.cs" />
     <Compile Include="Assets\_INTERNAL_\Scripts\Utilities\InventoryResources.cs" />
     <Compile Include="Assets\_INTERNAL_\Scripts\Utilities\Utils.cs" />
-    <Compile Include="Assets\Examples\Adventure\SoundScript.cs" />
     <Compile Include="Assets\leveloverscript.cs" />
     <Compile Include="Assets\SceneTransition.cs" />
     <Compile Include="Assets\Scripts\Attributes\BulletAttribute.cs" />
@@ -105,6 +104,7 @@
     <Compile Include="Assets\Scripts\Movement\Push.cs" />
     <Compile Include="Assets\Scripts\Movement\Rotate.cs" />
     <Compile Include="Assets\Scripts\Movement\Wander.cs" />
+    <Compile Include="Assets\SoundScript.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>/Users/3dstudent/Documents/GitHub/FinalGame-Emma/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>

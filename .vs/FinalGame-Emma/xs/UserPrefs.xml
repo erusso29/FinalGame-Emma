@@ -1,10 +1,11 @@
 ﻿<Properties StartupConfiguration="{B044D31C-B2E0-775B-85C7-3216A68530DE}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/_INTERNAL_/Scripts/UserInterface/UIScript.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/SoundScript.cs">
     <Files>
       <File FileName="Assets/SceneTransition.cs" Line="19" Column="39" />
       <File FileName="Assets/leveloverscript.cs" Line="15" Column="9" />
       <File FileName="Assets/Scripts/Attributes/CollectableAttribute.cs" Line="1" Column="1" />
-      <File FileName="Assets/_INTERNAL_/Scripts/UserInterface/UIScript.cs" Line="63" Column="25" />
+      <File FileName="Assets/_INTERNAL_/Scripts/UserInterface/UIScript.cs" Line="63" Column="1" />
+      <File FileName="Assets/SoundScript.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
