@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/winpage.unity
+- path: Assets/FinalGame_Level4.unity
   isLoaded: 1
   isActive: 1

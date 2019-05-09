@@ -5,7 +5,7 @@
       <File FileName="Assets/leveloverscript.cs" Line="15" Column="9" />
       <File FileName="Assets/Scripts/Attributes/CollectableAttribute.cs" Line="1" Column="1" />
       <File FileName="Assets/_INTERNAL_/Scripts/UserInterface/UIScript.cs" Line="63" Column="1" />
-      <File FileName="Assets/SoundScript.cs" Line="1" Column="1" />
+      <File FileName="Assets/SoundScript.cs" Line="30" Column="43" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />

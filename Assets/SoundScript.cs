@@ -27,7 +27,7 @@ public class SoundScript : MonoBehaviour
             Debug.Log("No sound file found!");
 
         }
-        else {
+        else if(collision.gameObject.tag == "Pickup"){
             Debug.Log("PLLLAAY");
             mySource.enabled = true;
             mySource.PlayOneShot(collisionSound);
