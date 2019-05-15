@@ -261,7 +261,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Collect the yellow smileys, avoid the angry ones, and if you need a health
+  m_Text: 'Collect the yellow smileys, avoid the red ones, and if you need a health
     boost, look out for the green smileys!
 
 

@@ -454,6 +454,7 @@ GameObject:
   - component: {fileID: 216689569}
   - component: {fileID: 216689574}
   - component: {fileID: 216689573}
+  - component: {fileID: 216689575}
   m_Layer: 0
   m_Name: bonussmileys
   m_TagString: Pickup
@@ -581,6 +582,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   actions:
   - {fileID: 216689573}
+  - {fileID: 216689575}
   useCustomActions: 0
   customActions:
     m_PersistentCalls:
@@ -592,6 +594,22 @@ MonoBehaviour:
   filterTag: Player
   frequency: 1
   eventType: 0
+--- !u!114 &216689575
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 216689568}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96f65a194a6d04c559f3e4f3a2ab77c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefabToCreate: {fileID: 1728291793021082, guid: bdacd49febd5543859c09f2cd1ef4601,
+    type: 3}
+  newPosition: {x: 0, y: 0}
+  relativeToThisObject: 1
 --- !u!1 &218425323
 GameObject:
   m_ObjectHideFlags: 0
@@ -4651,5 +4669,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 940263dfea2c640c98fd1f68731b4cde, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  collisionSound: {fileID: 8300000, guid: 5e0f133856bb3491b97a4a9f407dddd0, type: 3}
+  collisionSound: {fileID: 8300000, guid: ad53bfe7c88c14db5b27392cb061372a, type: 3}
   mySource: {fileID: 2140073809}

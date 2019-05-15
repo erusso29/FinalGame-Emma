@@ -1758,7 +1758,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 940263dfea2c640c98fd1f68731b4cde, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  collisionSound: {fileID: 8300000, guid: 5e0f133856bb3491b97a4a9f407dddd0, type: 3}
+  collisionSound: {fileID: 8300000, guid: ad53bfe7c88c14db5b27392cb061372a, type: 3}
   mySource: {fileID: 757957474}
 --- !u!1 &838294652
 GameObject:
@@ -2667,6 +2667,7 @@ GameObject:
   - component: {fileID: 1197257706}
   - component: {fileID: 1197257705}
   - component: {fileID: 1197257704}
+  - component: {fileID: 1197257703}
   m_Layer: 0
   m_Name: bonussmileys
   m_TagString: Pickup
@@ -2674,6 +2675,22 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &1197257703
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1197257702}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96f65a194a6d04c559f3e4f3a2ab77c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefabToCreate: {fileID: 1728291793021082, guid: bdacd49febd5543859c09f2cd1ef4601,
+    type: 3}
+  newPosition: {x: 0, y: 0}
+  relativeToThisObject: 1
 --- !u!114 &1197257704
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2716,6 +2733,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   actions:
   - {fileID: 1197257705}
+  - {fileID: 1197257703}
   useCustomActions: 0
   customActions:
     m_PersistentCalls:
@@ -4184,6 +4202,7 @@ GameObject:
   - component: {fileID: 1680956181}
   - component: {fileID: 1680956180}
   - component: {fileID: 1680956179}
+  - component: {fileID: 1680956184}
   m_Layer: 0
   m_Name: smileyface
   m_TagString: Untagged
@@ -4321,6 +4340,20 @@ MonoBehaviour:
   filterTag: Player
   frequency: 1
   eventType: 0
+--- !u!114 &1680956184
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1680956175}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be840ffee03ed4abe9b3dc9b48f9cae7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: 1
+  deathEffect: {fileID: 0}
 --- !u!1 &1739538176
 GameObject:
   m_ObjectHideFlags: 0
